@@ -16,24 +16,26 @@ A modern Gemini (AI assistant) clone built with **React.js**. This project featu
 
 ## File Structure
 
-gemini-clone/
-├── src/
-|   |── assets/
-│   ├── components/        # Reusable React components
-|   |   |── Main/
-|   |   |   |── Main.css
-|   |   |   └── Main.jsx
-|   |   └── Sidebar/
-|   |       |── Sidebar.css
-|   |       └── Sidebar.jsx
-│   ├── config/            # Configuration files (e.g., API integration)
-│   ├── context/           # React Context API for state management
-│   ├── App.jsx            # Main application component
-│   ├── index.css          # Global styles
-│   └── main.jsx           # Entry point for React
-├── public/                # Static assets
-├── package.json          # Project dependencies and scripts
-└── README.md              # Project documentation
+    ```bash
+     gemini-clone/
+     ├── src/
+     |   |── assets/
+     │   ├── components/        # Reusable React components
+     |   |   |── Main/
+     |   |   |   |── Main.css
+     |   |   |   └── Main.jsx
+     |   |   └── Sidebar/
+     |   |       |── Sidebar.css
+     |   |       └── Sidebar.jsx
+     │   ├── config/            # Configuration files
+     │   ├── context/           # React Context API for state management
+     │   ├── App.jsx            # Main application component
+     │   ├── index.css          # Global styles
+     │   └── main.jsx           # Entry point for React
+     ├── public/                # Static assets
+     ├── package.json          # Project dependencies and scripts
+     └── README.md              # Project documentation
+    ```
 
 ## Installation
 
